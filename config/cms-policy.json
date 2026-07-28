@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "apiPrefix": "/api/v1/cms",
+  "requiredLocales": ["en-GB", "ta-IN"],
+  "authenticationRequired": true,
+  "tenantIsolation": true,
+  "serverAuthoritativeTenantScope": true,
+  "workflowStates": ["draft", "review", "approved", "scheduled", "published", "retired"],
+  "approvalRequiredForPublish": true,
+  "dualApprovalForSensitiveContent": true,
+  "immutableRevisionHistory": true,
+  "scheduledPublishingAuditRequired": true,
+  "softDeleteRequired": true,
+  "accessibilityReviewRequired": true,
+  "sourceAttributionRequired": true,
+  "retentionDays": {"content": 2555, "audit": 2555, "deletedRecovery": 90}
+}
