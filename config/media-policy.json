@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "allowedMimeTypes": ["image/jpeg", "image/png", "image/webp", "audio/mpeg", "audio/ogg", "video/mp4", "application/pdf"],
+  "malwareScanRequired": true,
+  "metadataStrippingRequired": true,
+  "copyrightDeclarationRequired": true,
+  "altTextRequiredForImages": true,
+  "transcriptRequiredForAudioVideo": true,
+  "signedUploadRequired": true,
+  "maximumUploadMegabytes": 200,
+  "publicAccessRequiresApproval": true,
+  "sensitiveChildMediaProhibited": true,
+  "credentialAndPaymentDataProhibited": true
+}
